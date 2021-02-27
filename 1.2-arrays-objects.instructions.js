@@ -7,3 +7,34 @@
 */
 
 //NOTE: Write your code below and push back to your github branch.  SUBMIT YOUR GITHUB URL IN CANVAS
+
+
+let nameOfMovie = {
+    name: 'The Other Guys',
+    genre: 'Comedy',
+    runTime: '1hr 47min',
+    stars: {
+        actor1: {
+            name1: 'Mark Wahlberg',
+            age1: 'Age: 49',
+            roles1: ['Director', 'Actor'],
+                },
+        actor2: {
+                name2: 'Will Ferrell',
+                age2: 'Age: 54',
+                roles2: ['Producer', 'Actor'],
+                }
+            
+            }
+}
+
+
+console.log(nameOfMovie.name);
+console.log(nameOfMovie.genre);
+console.log(nameOfMovie.runTime);
+console.log(nameOfMovie.stars.actor1.name1);
+console.log(nameOfMovie.stars.actor1.roles1[0]);
+console.log(nameOfMovie.stars.actor1.roles1[1]);
+console.log(nameOfMovie.stars.actor2.name2);
+console.log(nameOfMovie.stars.actor2.roles2[0]);
+console.log(nameOfMovie.stars.actor2.roles2[1]);
