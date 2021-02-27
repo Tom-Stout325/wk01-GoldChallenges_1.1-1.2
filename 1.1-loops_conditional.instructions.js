@@ -9,6 +9,16 @@
 
 //NOTE: Write your code below and push back to your github branch.  SUBMIT YOUR GITHUB URL IN CANVAS
 
-for (num = 0; num <= 10; num++){
-      console.log(num);
-      }
+function callback(num) {
+    console.log(num)
+    if ( num % 2 == 0) {
+        console.log('The number is even');
+    }  else {
+    console.log('The number is odd');
+   }
+}
+
+for (num = 0; num <= 10; num++) {
+    console.log();
+    callback(num);
+}
