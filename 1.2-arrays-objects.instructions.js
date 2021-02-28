@@ -9,32 +9,35 @@
 //NOTE: Write your code below and push back to your github branch.  SUBMIT YOUR GITHUB URL IN CANVAS
 
 
-let nameOfMovie = {
-    name: 'The Other Guys',
+let otherGuys = {
+    nameOfMovie: 'The Other Guys',
     genre: 'Comedy',
-    runTime: '1hr 47min',
-    stars: {
-        actor1: {
-            name1: 'Mark Wahlberg',
-            age1: 'Age: 49',
-            roles1: ['Director', 'Actor'],
-                },
-        actor2: {
-                name2: 'Will Ferrell',
-                age2: 'Age: 54',
-                roles2: ['Producer', 'Actor'],
-                }
-            
-            }
+    runTime: '1hr 47min'
 }
 
+let characters = [
+'Mark Wahlberg', 
+'Age:49', 
+role = {
+1: 'Director',
+2: 'Actor'},
 
-console.log(nameOfMovie.name);
-console.log(nameOfMovie.genre);
-console.log(nameOfMovie.runTime);
-console.log(nameOfMovie.stars.actor1.name1);
-console.log(nameOfMovie.stars.actor1.roles1[0]);
-console.log(nameOfMovie.stars.actor1.roles1[1]);
-console.log(nameOfMovie.stars.actor2.name2);
-console.log(nameOfMovie.stars.actor2.roles2[0]);
-console.log(nameOfMovie.stars.actor2.roles2[1]);
+'Will Ferrell',
+'Age: 54',
+role2 = {
+1: 'Producer',
+2: 'Actor'},
+];
+
+
+
+
+
+console.log(otherGuys.nameOfMovie);
+console.log(otherGuys.genre);
+console.log(otherGuys.runTime);
+console.log(characters);
+console.log(characters[0]);
+console.log(role[1]);
+console.log(characters[3]);
+console.log(role2[2]);
